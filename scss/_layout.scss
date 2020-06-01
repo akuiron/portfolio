@@ -1,0 +1,136 @@
+//Contient le CSS propre à la disposition (ex: header, footer)
+
+body {
+    background-image: url(../img/background.jpg);
+}
+
+h2 {
+    color: #FF1E5C;
+}
+
+.header {
+    margin: 230px auto 350px;
+    width: 700px;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 45px;
+    text-align: center;
+}
+
+.header_logo {
+    padding-bottom: 50px;
+}
+
+.about {
+    display: table;
+    vertical-align: middle;
+    margin-left: 300px;
+    margin-bottom: 200px;
+    margin-top: 200px;
+    width: 700px;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    border-style: solid 3px #FF1E5C;
+}
+
+.about-title {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
+
+.about-para {
+    font-size: 20px;
+}
+
+.about-portrait {
+    position: relative;
+    width: 200px;
+    left: 1000px;
+    bottom: 300px;
+    border-radius: 20%;
+}
+
+.services {
+    width: 1400px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 50px;
+}
+
+.services_subtitle {
+    font-size: 1.2rem;
+}
+
+.services-title {
+    font-size: 50px;
+    margin-top: 250px;
+    text-align: center;
+}
+
+.services_border h3 {
+    border: 2px solid #FF1E5C;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px 1px;
+}
+
+.real-title {
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.real-fleche {
+    margin-top: 200px;
+}
+
+.card img {
+    height: 300px;
+    background-color: black;
+}
+
+.card-title {
+    text-align: center;
+    color: #FF1E5C;
+}
+
+.card-deck {
+    padding-bottom: 50px;
+}
+
+.tag {
+    background-color: #FF1E5C;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.realisations {
+    width: 700px;
+    margin-bottom: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #FF1E5C !important;
+    border: 1px solid #FF1E5C;
+}
+
+.footer {
+    color: #FF1E5C;
+    padding-top: 50px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+}
+
